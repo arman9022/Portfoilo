@@ -816,7 +816,11 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script type="text/javascript">
+    document.addEventListener("contextmenu",function(hiddenSource){
+      hiddenSource.preventDefault();
+    });
+  </script>
 </body>
 
 </html>
